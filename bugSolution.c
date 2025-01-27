@@ -1,0 +1,1 @@
+int main() { int x = 10; int *ptr = &x; *ptr = 20; //This is correct but it could lead to unexpected issues in larger programs printf("%d", x); return 0; } // adding some boundary checks and error handling could prevent potential memory-related issues. 
